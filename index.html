@@ -4,83 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
- <header>
-  <nav>
+   
+
+ <header id="home">
+    <div class="container">
+        <img src="./images/zakiya msa.jpeg" class="logoimg"/>
+  <div class="nav-bar1">
+    
+  <nav class="nav-bar">
+
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Resume</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a> </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li> <a href="resumue">Resume</a></li>
+        <li> <a href="#contact">Contact</a></li>
     </ul>
-  </nav>  
+  </nav>
+</div>  
+</div>
  </header>
+
  <main>
 
-    <h3>About Me </h3>
+    <h3 class="about">About Me </h3>
     <hr>
+    <div class="aboutme">
+        <p>Hi there! 👋 I'm Zakiya Abass, a passionate and curious learner currently diving deep into the world of Software Engineering at GoMyCode. </p> 
+      <br>
+            <p>My journey in tech has been fueled by a love for problem-solving and creating experiences that make a difference. Whether it's building a sleek, user-friendly interface or ensuring robust backend performance,</p> 
+            <p> I strive to deliver solutions that exceed expectations.</p>
+            <br>
+           <p> When I'm not coding, you can find me exploring new skills, brainstorming creative ideas, or simply enjoying the beauty of learning something new. I’m excited about the opportunities that lie ahead and can’t wait to see how my passion for technology shapes the future.
+            
+            Let’s build something amazing together!</p>
+      </div>
    
-   <p>I'm a Fullstack Software Engineer with 1 year experience  developing software for global clients </p>
-   <h3>The languages i use are:</h3>
-   <ul>
-    <li>Html</li>
-    <li>Css</li>
-    <li>Java script</li>
-   </ul>
-   <p>Currently a  Fullstack Software Development student at GOMYCODE.</p>
-
-   <h2>Projects</h2>
+   
+  <br>
+  <div class="biggerproject">
+   <h2 style="color: rgb(43, 128, 123);;">Projects</h2>
    <hr>
 
-<p>A few of the projects that I have worked on over the years that I can publicly talk about.</p>
+<p class="project2">A few of the projects that I have worked on over the years that I can publicly talk about.</p>
 
-<table class="table">
-    <tr class="tr">
-        <th>Qartugo</th>
-        <th>Starship</th>
-        <th>KraMVC</th>
-        <th>The Crucible</th>
-    </tr>
-    <br>
-    <tr>
-        <td>A web based sports and team management platform. MVP development underway.</td>
-        <td>An online betting and gaming platform that was built using kraMVC.</td>
-        <td>A custom, lightweight MVC framework that I built with PHP. It was the foundation of tens of other projects that followed over the years.</td>
-        <td>The Crucible web app handled application, communication and team management for the national marketing competition.</td>
-    </tr>
-</table>
-<br> <br>
- <div>
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="project">
+    <div class="project1">
+        <h3>Qartugo</h3>
+        <h4>A web based sports management platform.</h4>
+    </div>
+    <div class="project1">
+     <h3>Starship</h3>
+      <p>An online betting and gaming platform that was built using kraMVC.</p>
+    </div>
+    <div class="project1">
+        <h3>The Crucible</h3>
+        <p>The Crucible web app handled application, communication and management.</p>
+    </div>
+    <div class="project1">
+        <h3>EditTables</h3>
+        <p>A custom WordPress plugin built for The Crucible to make management through the WP frontend easy.</p>
+    </div>
+    <div class="project1">
+       <h3>Voice Grasp</h3> 
+       <p>First mobile app, built with Ionic/Angular.</p>
+    </div>
+</div>
+</div>
+   
 
  </div>
 </main>
-<h5>
-    Kindly fill in the form
-    <hr>
-</h6>
-<form>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="fname"><br>
-    <br>
-    <label for="lname">Last Name:</label> 
-    <input type="text" id="lname" name="lname">
-    <br>
-    <br>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    </form>
-<article>
-    <h3>Articles</h3>
-    My coding journey, notes and personal diary
-</article>
+<div class="footer">
 <footer>
-    <h1>Contact</h1>
-    <p>You can reach me via email:</p>
-    <a href="mailto:zakiyaabass02@gmail.com">zakiyaabass02@gmail.com</a>
+    <h1 class="contact">Contact</h1>
+    <h4>My social handles</h4>
+    <!-- <a href="mailto:zakiyaabass02@gmail.com">zakiyaabass02@gmail.com</a> -->
+     <div class="footer-container">
+    <a href="mailto:zakiyaabass02@gmail.com" target="_blank">
+    <i class='bx bxs-envelope'></i>
+</a>
+<a href="https://instagram.com/zakiya"target="_blank">
+<i class='bx bxl-instagram'></i>
+</a>
+<a href="https://youtube.com/channel/your_channel_id" target="_blank">
+<i class='bx bxl-youtube' ></i>
+</a>
+<a href="https://twitter.com/your_twitter_username" target="_blank">
+<i class='bx bxl-twitter' ></i>
+</a>
+
 </footer>
+</div>
 </body>
 </html>
